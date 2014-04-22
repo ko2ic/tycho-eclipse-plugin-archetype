@@ -11,8 +11,11 @@
       <defaultValue>kepler</defaultValue>
     </requiredProperty>
     <requiredProperty key="signing_support">
-      <defaultValue>false</defaultValue>
-    </requiredProperty>
+      <defaultValue>true</defaultValue>
+    </requiredProperty>  
+    <requiredProperty key="dependency_support">
+      <defaultValue>true</defaultValue>
+    </requiredProperty>      
   </requiredProperties>
   <fileSets>
     <fileSet encoding="UTF-8"  filtered="true">
